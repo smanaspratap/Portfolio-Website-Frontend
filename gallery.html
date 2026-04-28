@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Manas Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .gallery-section { padding: 3rem 2rem; }
+    .gallery-section h2 { text-align: center; font-size: 2rem; margin-bottom: 2rem; }
+    .gallery-item img { width: 100%; height: 200px; object-fit: cover; transition: transform .3s; }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-caption { padding: .5rem; text-align: center; background: #fff; font-size: .85rem; color: #555; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Manas</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="gallery-section">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+1" alt="Snap 1"><p class="gallery-caption">Snapshot 1</p></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+2" alt="Snap 2"><p class="gallery-caption">Snapshot 2</p></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+3" alt="Snap 3"><p class="gallery-caption">Snapshot 3</p></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+4" alt="Snap 4"><p class="gallery-caption">Snapshot 4</p></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+5" alt="Snap 5"><p class="gallery-caption">Snapshot 5</p></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/260x200?text=Snap+6" alt="Snap 6"><p class="gallery-caption">Snapshot 6</p></div>
+    </div>
+  </section>
+  <footer><p>&copy; 2026 Manas. All Rights Reserved.</p></footer>
+</body>
+</html>
