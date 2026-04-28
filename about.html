@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Manas Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .about-section { padding:5rem 2rem; max-width:960px; margin:0 auto; }
+    .about-image img { width:100%; border-radius:50%; max-width:270px; display:block; margin:0 auto; box-shadow:0 8px 25px rgba(0,0,0,.15); }
+    .skill-tag { background:#1a1a2e; color:#fff; padding:.35rem 1rem; border-radius:20px; font-size:.82rem; }
+    .timeline { margin-top:3rem; }
+    .tl-item { padding:1rem 1rem 1rem 2rem; border-left:3px solid #e94560; margin-bottom:1.5rem; position:relative; }
+    .tl-item::before { content:""; position:absolute; left:-8px; top:1.2rem; width:13px; height:13px; background:#e94560; border-radius:50%; }
+    .tl-item h3 { color:#1a1a2e; font-size:1.05rem; }
+    .tl-item p  { color:#666; font-size:.9rem; margin-top:.3rem; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Manas</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="about-section">
+    <h1 style="margin-bottom:2rem">About Me</h1>
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="https://via.placeholder.com/270x270?text=Manas" alt="Manas Profile">
+      </div>
+      <div class="about-text">
+        <h2>Hi, I am Manas</h2>
+        <p style="margin:.8rem 0">Passionate Full Stack Developer trainee at <strong>BridgeLabz</strong>. I build clean, responsive web apps and love turning ideas into pixel-perfect UIs.</p>
+        <p>Currently mastering <strong>HTML5, CSS3, Flexbox, JavaScript</strong> and heading into backend territory.</p>
+        <div class="skills-grid" style="margin-top:1.2rem">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">Flexbox</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <h2 style="margin-bottom:1.5rem">Journey</h2>
+      <div class="tl-item">
+        <h3>BridgeLabz Full Stack Training</h3>
+        <p>2026 - Present | HTML, CSS, JS and Git workflow</p>
+      </div>
+      <div class="tl-item">
+        <h3>Portfolio Website Project</h3>
+        <p>April 2026 | Multi-page responsive portfolio</p>
+      </div>
+    </div>
+  </section>
+  <footer><p>&copy; 2026 Manas. All Rights Reserved.</p></footer>
+</body>
+</html>
