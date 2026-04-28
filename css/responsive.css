@@ -1,0 +1,44 @@
+﻿/* Responsive Design - Manas Portfolio */
+
+/* Mobile (max 480px) */
+@media (max-width: 480px) {
+  .navbar          { flex-direction: column; gap: .8rem; padding: 1rem; }
+  .nav-links       { flex-direction: column; align-items: center; gap: .4rem; }
+  .hero h1         { font-size: 1.9rem; }
+  .hero-sub        { font-size: .95rem; }
+  .card            { flex: 1 1 100%; max-width: 100%; }
+  .gallery-item    { flex: 1 1 100%; max-width: 100%; }
+  .about-grid      { flex-direction: column; }
+  .contact-grid    { flex-direction: column; }
+  .cards-container { padding: 1.5rem 1rem; }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-links    { gap: 1rem; font-size: .88rem; }
+  .hero h1      { font-size: 2.3rem; }
+  .card         { flex: 1 1 calc(50% - 2rem); }
+  .gallery-item { flex: 1 1 calc(50% - 1rem); }
+  .about-grid   { flex-direction: column; }
+  .contact-grid { flex-direction: column; }
+}
+
+/* Desktop (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card         { flex: 1 1 calc(33% - 2rem); }
+  .gallery-item { flex: 1 1 calc(33% - 1rem); }
+  .hero h1      { font-size: 2.8rem; }
+}
+
+/* Large Screen (1025px+) */
+@media (min-width: 1025px) {
+  .hero h1         { font-size: 3.5rem; }
+  .about-section,
+  .contact-section { max-width: 1000px; margin-left: auto; margin-right: auto; }
+}
+
+/* Print */
+@media print {
+  .navbar, footer, .btn, .btn-submit { display: none !important; }
+  body { color: #000; background: #fff; }
+}
